@@ -1,24 +1,24 @@
-An�lise de Dados de playlists do Spotify utlizando a biblioteca Spotipy para Python 3
+Análise de Dados de playlists do Spotify utlizando a biblioteca Spotipy para Python 3
 
-Analisa pelo c�digo da playlist obtendo dados das m�sicas contidas.
-Para mais informa��es acesse 
+Analisa pelo código da playlist obtendo dados das músicas contidas.
+Para mais informações acesse 
 	https://developer.spotify.com/documentation/web-api/ 
 	ou
 	https://github.com/plamere/spotipy
 
-Par�metros a serem analisados
-Energy - Medida de 0 a 1, que representa a intensidade da m�sica.
-Liveness - Detecta se a m�sica � grava��o ao vivo ou n�o.
+Parâmetros a serem analisados
+Energy - Medida de 0 a 1, que representa a intensidade da música
+Liveness - Detecta se a música é gravação ao vivo ou não
 Tempo - A estimativa das batidas por minuto.
-Speechiness - Detecta a presen�a de palavras faladas em uma m�sica.
-Acousticnnes - Medida de 0 a 1, que representa a acusticidade da m�sica
-Instrumentalness - Detecta se a m�sica possui ou n�o Vocais
+Speechiness - Detecta a presença de palavras faladas em uma música.
+Acousticnnes - Medida de 0 a 1, que representa a acusticidade da música
+Instrumentalness - Detecta se a música possui ou não Vocais
 Time Signature - 
-Danceability -
-Key - 
-Duration MS -
-Loudness - 
-Valence - 
-Mode - 
-Type - 
-Uri - 
+Danceability - Descreve o quanto a música é dançavel, baseado em estabilidade de ritmo, batida e regularidade
+Key - Qual a nota musical mais presente na música
+Duration MS - Duração da música em milisegundos
+Loudness - A altura geral da música em decibéis
+Valence - Valor de 0 a 1 que descreve o 'humor' músical. Alta valência, música mais positivas e baixa valência, músicas mais 		negativas
+Mode - Indica a modalidade da música se a nota mais presente é Maior ou Menor
+Type - Neste caso o tipo sempre será "audio_features"
+Uri - A URI do Spotify, para a música em questão
